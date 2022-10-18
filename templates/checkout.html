@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="container">
+        <h1 class="text-center">Thank you for your order</h1>
+        <div class="card text-center">
+            <div class="card-header"></div>
+            <div class="card-body">
+                <h5 class="card-title">Hi, LuMA!</h5>
+                <p class="card-text">You ordered a bunch of fruits, they were charged to your account on 10.14.22</p>
+            </div>
+        </div>
+        <table class="table table-bordered text-center">
+            <thead>
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">Fruit</th>
+                <th scope="col">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                        <td>Mangos</td>
+                    <td>3
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Strawberries</td>
+                        <td>5
+                        </td>
+                </tr>
+    
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Maduritos</td>
+                    <td>2
+                </tr>
+            </tbody>
+            </table>
+    </div>
+{% endblock content %}

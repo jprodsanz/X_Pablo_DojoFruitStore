@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container mt-5">
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Dojo Fruit Store</h5>
+        <p class="card-text">Hey,LuMa! Pablo told us you like fruits such as mangos and strawberries. Use this app to place an order!</p>
+            <a href="{{ url_for('fruits') }}" class="btn btn-outline-info">Shop Now</a>
+        </div>
+    </div>
+</div>
+{% endblock content %}
